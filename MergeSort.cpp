@@ -65,7 +65,7 @@ void mergeSort(int array[], int const begin, int const end) {
 
 int main(){
 
-    int vet[] = {12,3,5,7,32,7,2,4,8,24,43,0,6}
+    int vet[] = {12,3,5,7,32,7,2,4,8,24,43,0,6};
     int size = sizeof(vet)/sizeof(int);
 
     mergeSort(vet, 0, size);
